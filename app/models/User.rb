@@ -6,9 +6,9 @@ class User
 
     def initialize(user)
         @user = user
+        # User.all should return all of the user instances
         @@all << self
     end
-# User.all should return all of the user instances
 
     def self.all
         @@all
