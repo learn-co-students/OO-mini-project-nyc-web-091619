@@ -17,6 +17,7 @@ class RecipeCard
         # RecipeCard.all should return all of the RecipeCard instances
         @@all
     end
+
 # RecipeCard#date should return the date of the entry
 # RecipeCard#rating should return the rating (an integer) a user has given their entry
 # RecipeCard#user should return the user to which the entry belongs
