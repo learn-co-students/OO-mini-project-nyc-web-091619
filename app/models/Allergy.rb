@@ -13,5 +13,7 @@ class Allergy
     def self.all
         @@all
     end
+    
+    #Allergy.all should return all of the Allergy instances
 
 end

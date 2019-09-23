@@ -25,6 +25,12 @@ in3 = Ingredient.new("Salt")
 in4 = Ingredient.new("Black Pepper")
 in5 = Ingredient.new("Olive Oil")
 
+#add.recipe_card
+
+n1.add_recipe_card(r1, "09/23/19", 3)
+n2.add_recipe_card(r2, "09/23/19", 5)
+n1.add_recipe_card(r2, "09/23/19", 5)
 
 
-binding.pry
+
+#binding.pry
