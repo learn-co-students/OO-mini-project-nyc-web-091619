@@ -32,7 +32,6 @@ ri4 = RecipeIngredient.new(r4, i2)
 ri4 = RecipeIngredient.new(r2, i1)
 
 #allergies
-
 a1 = Allergy.new(i1, u1)
 a2 = Allergy.new(i2, u1)
 a3 = Allergy.new(i3, u2)

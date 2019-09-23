@@ -52,8 +52,7 @@ class User
         (recipe.ingredients & allergens) == []
 
     end
-
-
+    
     def self.all 
         @@all
     end
