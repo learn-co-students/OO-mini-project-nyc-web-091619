@@ -1,6 +1,6 @@
 class Allergy
 
-    attr_accessor :name, :ingredient
+    attr_accessor :user, :ingredient
 
     @@all = []
 
