@@ -14,6 +14,6 @@ class RecipeIngredient
         # RecipeIngredient.all should return all of the RecipeIngredient instances
         @@all
     end
-    
     # RecipeIngredient#recipe should return the recipe instance
-end
+
+end # End of Class

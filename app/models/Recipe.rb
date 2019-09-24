@@ -48,4 +48,4 @@ class Recipe
         RecipeIngredient.all.select { |rec_ing| rec_ing.recipe == self }.map { |recipe| recipe.ingredient }
     end
 
-end
+end # End of Class

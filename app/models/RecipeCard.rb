@@ -21,4 +21,5 @@ class RecipeCard
     # RecipeCard#date should return the date of the entry
     # RecipeCard#rating should return the rating (an integer) a user has given their entry
     # RecipeCard#recipe should return the recipe to which the entry belongs
-end
+    
+end # End of Class

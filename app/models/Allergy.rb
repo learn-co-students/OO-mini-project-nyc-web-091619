@@ -15,5 +15,4 @@ class Allergy
         @@all
     end
     
-
-end
+end # End of Class

@@ -20,5 +20,5 @@ class Ingredient
             Allergy.all.select { |allergen| allergen.ingredient == ingredient }.count
         end
     end
-end
+end # End of Class
 

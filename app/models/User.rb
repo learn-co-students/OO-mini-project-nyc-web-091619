@@ -49,4 +49,4 @@ class User
         recipe_cards.last.recipe
     end
 
-end
+end # End of Class
