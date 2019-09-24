@@ -1,8 +1,6 @@
 require 'pry'
 class Ingredient
 
-    attr_accessor :name
-
     @@all = []
 
     def initialize
@@ -14,7 +12,7 @@ class Ingredient
     end
 
     def self.most_common_allergen
-        binding.pry
+        # binding.pry
 
         allergies = {}
         Allergy.all.each do |allergen|

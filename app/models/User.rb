@@ -16,6 +16,12 @@ class User
         Allergy.new(self, ingredient)
     end
 
+    def declare_allergies(ingredients)
+        ingredients.each do |ingredient|
+            declare_allergy(ingredient)
+        end
+    end
+
     def recipes
         my_cards = RecipeCard.all.select do |rc|
             rc.user == self

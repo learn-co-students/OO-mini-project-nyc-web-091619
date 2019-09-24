@@ -1,7 +1,7 @@
 class Recipe
   @@all = []
   
-  def initialize()
+  def initialize
     @@all << self
   end
   
@@ -52,7 +52,7 @@ class Recipe
 
   end
 
-  def add_ingredient(ingredients=[])
+  def add_ingredient(ingredients)
     # Add ingredients to RI table
     RecipeIngredient.new(self, ingredients)
   end
